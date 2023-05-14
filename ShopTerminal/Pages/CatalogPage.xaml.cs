@@ -13,21 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ShopTerminal
+namespace ShopTerminal.Pages
 {
     /// <summary>
-    /// Interaction logic for AuthPage.xaml
+    /// Interaction logic for CatalogPage.xaml
     /// </summary>
-    public partial class AuthPage : Page
+    public partial class CatalogPage : Page
     {
-        public AuthPage()
+        public CatalogPage()
         {
             InitializeComponent();
-        }
-
-        private void loginBtn_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

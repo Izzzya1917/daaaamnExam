@@ -10,14 +10,14 @@
       Title="Авторизация">
 
     <Grid>
-        <StackPanel>
+        <StackPanel Margin="10" VerticalAlignment="Center" Width="250">
             <TextBlock>Авторизуйтесь пж!!!!!</TextBlock>
             <TextBlock>Логин</TextBlock>
             <TextBox x:Name="loginTB"/>
             <TextBlock>Пароль</TextBlock>
             <PasswordBox x:Name="passwordPB"/>
-            <Button x:Name="loginBtn" Content="войти" Click="loginBtn_Click"/>
-            <Button x:Name="guestBtn" Content="я гость" Click="guestBtn_Click"/>
+            <Button x:Name="loginBtn" Content="войти" Click="loginBtnClick" Margin="10"/>
+            <Button x:Name="guestBtn" Content="я гость" Click="guestBtnClick" Margin="10"/>
         </StackPanel>
        
     </Grid>

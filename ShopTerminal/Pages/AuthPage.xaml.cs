@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ShopTerminal.Pages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,25 +14,30 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-
 namespace ShopTerminal
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for AuthPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class AuthPage : Page
     {
-        public MainWindow()
+        public AuthPage()
         {
             InitializeComponent();
-            MainFrame.Navigate(new AuthPage());
         }
 
-        private void backBtnClick(object sender, RoutedEventArgs e)
+
+
+
+        private void loginBtnClick(object sender, RoutedEventArgs e)
         {
-            if (MainFrame.CanGoBack) {
-                MainFrame.GoBack();
-            }
+            //тут авторизация
+        }
+
+        private void guestBtnClick(object sender, RoutedEventArgs e)
+        {
+            //тут просто скипаем и идём смотреть товары
+            NavigationService.Navigate(new CatalogPage());
         }
     }
 }

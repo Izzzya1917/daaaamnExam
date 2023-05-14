@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\anast\source\repos\daaaamnExam\ShopTerminal\App.xaml
-2904301475
+31607921292
 
-6442465904
+7-992341022
 1942030480316
-AuthPage.xaml;MainWindow.xaml;
+MainWindow.xaml;Pages\AuthPage.xaml;Pages\CatalogPage.xaml;
 
 True
 
