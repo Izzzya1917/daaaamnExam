@@ -25,5 +25,12 @@ namespace ShopTerminal
             InitializeComponent();
             MainFrame.Navigate(new AuthPage());
         }
+
+        private void backBtnClick(object sender, RoutedEventArgs e)
+        {
+            if (MainFrame.CanGoBack) {
+                MainFrame.GoBack();
+            }
+        }
     }
 }
